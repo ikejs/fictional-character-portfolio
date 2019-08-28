@@ -1,0 +1,32 @@
+/* Background gradient from https://cssgradient.io/ */
+body {
+    height:100%;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,252,45,1) 100%);
+}
+
+html {
+    min-height: 100%
+}
+
+#portfolio {
+    border: 5px solid yellow;
+    border-radius: 30px;
+}
+
+#content {
+    margin-top:20px;
+}
+
+#credits {
+    padding-top:20px;
+    margin-bottom:-20px;
+}
+
+.right {
+    text-align: right;
+}
+
+.category-title {
+    text-decoration: underline;
+}
